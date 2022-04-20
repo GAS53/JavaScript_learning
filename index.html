@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="styles/style.css">
+  
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-light bg-dark">
+      <div class="btn-group ml-auto">
+        <div class="dropdown-menu dropdown-menu-right basketPanel">
+          <table class="table table-hover">
+            <thead>
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Имя</th>
+                <th scope="col">Цена</th>
+                <th scope="col">Количество</th>
+                <th scope="col">Количество</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+            <tfoot>
+              <tr>
+                <th colspan="2" scope="row">Итого:</th>
+                <td colspan="3">
+                  <span class="total">0</span>
+                  <i class="fas fa-ruble-sign"></i>
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+          <input>укажите адрес доставки</th>
+        </div>
+      </div>
+    </nav>
+
+    <br>
+  
+    
+    <div class="container">
+      <div class="col-4">
+        <div class="prod_name"></div>
+        <img src="https://placeimg.com/300/200/tech">
+        <div>
+          <span class="productPrice">120</span>
+          <i class="fas fa-ruble-sign"></i>
+        </div>
+        <button type="button" class="btn btn-success mt-3 toBasketBtn" data-id="1" data-price="120" data-name="Товар 1">
+          В корзину
+        </button>
+      </div>
+        <div class="prod_name"></div>
+        <img src="https://placeimg.com/300/200/tech/sepia">
+        <div>
+          <span class="productPrice">75</span>
+          <i class="fas fa-ruble-sign"></i>
+        </div>
+        <button type="button" class="btn btn-success mt-3 toBasketBtn" data-id="2" data-price="75" data-name="Товар 2">
+          В корзину
+        </button>
+      </div>
+      <div class="col-4">
+        <div class="prod_name"></div>
+        <img src="https://placeimg.com/300/200/tech/grayscale">
+        <div class="productPrice"></div>
+        <button type="button" class="btn btn-success mt-3 toBasketBtn" data-id="3" data-price="3000"
+          data-name="Товар 3">
+          В корзину
+        </button>
+      </div>
+    </div>
+  </div>
+
+<script src='app.js'></script>
+</body>
+
+</html>
